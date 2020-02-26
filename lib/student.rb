@@ -4,9 +4,6 @@ class Student
 
   # Remember, you can access your database connection anywhere in this class
   #  with DB[:conn]  
-  task :hello do
-    puts "hello from Rake!"
-  end   
   
   attr_accessor :name, :grade
   
